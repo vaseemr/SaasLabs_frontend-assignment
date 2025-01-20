@@ -1,0 +1,63 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  background-color: whitesmoke;
+  color: #009879;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  /* background-color: #f4f4f4; */
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.project-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.project-table th, .project-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  
+}
+
+.project-table .empty-row {
+  height: 40px;
+  background-color: #f9f9f9;
+}
+
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eaf3ff; /* Light blue highlight */
+  cursor: pointer; /* Changes cursor to pointer for interactivity */
+}
+
+tr:nth-child(even):hover {
+  background-color: #eaf3ff; /* Slightly darker blue for even rows */
+}
